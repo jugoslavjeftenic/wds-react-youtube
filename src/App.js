@@ -15,7 +15,7 @@ function App() {
 				<span>.</span>
 			</p>
 			<div>
-				<h2>npm biblioteke</h2>
+				<h2>biblioteke</h2>
 				<ul>
 					<li>npm i</li>
 					<li>npm i react-router-dom</li>
@@ -24,9 +24,9 @@ function App() {
 			</div>
 			<hr />
 			<div>
-				<h2>aplikacije</h2>
+				<h2>vežbe</h2>
 				<ol>
-					<li><Link to="pokemon">Go to Pokemon</Link></li>
+					<li><Link to="pokemon">Pokemon</Link></li>
 				</ol>
 			</div>
 
