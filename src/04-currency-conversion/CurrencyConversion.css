@@ -1,0 +1,26 @@
+.currencyConversion {
+    margin: 0;
+    text-align: center;
+}
+
+.currencyConversion h1 {
+    margin: 0;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.currencyConversion .input {
+    border: 1px solid #333;
+    border-radius: 0.3em;
+    padding: 0.25em;
+    width: 7em;
+}
+
+.currencyConversion select {
+    margin-left: 0.5rem;
+}
+
+.currencyConversion .equals {
+    font-weight: bold;
+    font-size: 2rem;
+}

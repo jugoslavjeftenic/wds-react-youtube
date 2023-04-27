@@ -6,6 +6,7 @@ import App from './App';
 import Pokemon from './01-pokemon/Pokemon';
 import InfiniteScrolling from './02-infinite-scrolling/InfiniteScrolling';
 import TodoApp from './03-todo-list/TodoApp';
+import CurrencyConversion from './04-currency-conversion/CurrencyConversion';
 
 const router = createBrowserRouter([
 	{
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
 	{
 		path: "/todo",
 		element: <TodoApp />,
+	},
+	{
+		path: "/currency-conversion",
+		element: <CurrencyConversion />,
 	}
 ]);
 

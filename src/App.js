@@ -29,6 +29,7 @@ function App() {
 					<li><Link to="pokemon">Pokemon</Link></li>
 					<li><Link to="infinite-scrolling">Infinite Scrolling</Link></li>
 					<li><Link to="todo">Todo List</Link></li>
+					<li><Link to="currency-conversion">Currency Conversion</Link></li>
 				</ol>
 			</div>
 		</>
