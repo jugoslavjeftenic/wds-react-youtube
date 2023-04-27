@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from './App';
 
 import Pokemon from './01-pokemon/Pokemon';
+import InfiniteScrolling from './02-infinite-scrolling/InfiniteScrolling';
 
 const router = createBrowserRouter([
 	{
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
 	{
 		path: "/pokemon",
 		element: <Pokemon />,
+	},
+	{
+		path: "/infinite-scrolling",
+		element: <InfiniteScrolling />,
 	}
 ]);
 

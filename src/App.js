@@ -27,9 +27,9 @@ function App() {
 				<h2>vežbe</h2>
 				<ol>
 					<li><Link to="pokemon">Pokemon</Link></li>
+					<li><Link to="infinite-scrolling">Infinite Scrolling</Link></li>
 				</ol>
 			</div>
-
 		</>
 	);
 }
