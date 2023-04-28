@@ -7,6 +7,7 @@ import Pokemon from './01-pokemon/Pokemon';
 import InfiniteScrolling from './02-infinite-scrolling/InfiniteScrolling';
 import TodoApp from './03-todo-list/TodoApp';
 import CurrencyConversion from './04-currency-conversion/CurrencyConversion';
+import FlashcardApp from './05-flashcards/FlashcardApp';
 
 const router = createBrowserRouter([
 	{
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
 	{
 		path: "/currency-conversion",
 		element: <CurrencyConversion />,
+	},
+	{
+		path: "/flashcards",
+		element: <FlashcardApp />,
 	}
 ]);
 
